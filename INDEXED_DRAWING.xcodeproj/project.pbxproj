@@ -11,6 +11,17 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		8B5D72181B8FE28C002048F0 /* block_export.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D72111B8FE28C002048F0 /* block_export.png */; };
+		8B5D72191B8FE28C002048F0 /* cube_with_image.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D72121B8FE28C002048F0 /* cube_with_image.mtl */; };
+		8B5D721A1B8FE28C002048F0 /* cube_with_image.obj in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D72131B8FE28C002048F0 /* cube_with_image.obj */; };
+		8B5D721B1B8FE28C002048F0 /* JObjectLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D72141B8FE28C002048F0 /* JObjectLoader.cpp */; };
+		8B5D721C1B8FE28C002048F0 /* SimpleIndexShader.fs in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D72161B8FE28C002048F0 /* SimpleIndexShader.fs */; };
+		8B5D721D1B8FE28C002048F0 /* SimpleIndexShader.vs in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D72171B8FE28C002048F0 /* SimpleIndexShader.vs */; };
+		8B5D721F1B927F7F002048F0 /* libSDL2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5D721E1B927F7F002048F0 /* libSDL2_image.a */; };
+		8B5D72211B9281BC002048F0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5D72201B9281BC002048F0 /* ImageIO.framework */; };
+		8B5D72231B928263002048F0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5D72221B928263002048F0 /* MobileCoreServices.framework */; };
+		8BE3ADA71B9509ED00567335 /* Crate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3ADA61B9509ED00567335 /* Crate.jpg */; };
+		8BE3ADA91B95156E00567335 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3ADA81B95156E00567335 /* images.jpeg */; };
 		D08594411B7E64B4001597D8 /* triangleShader.fs in Resources */ = {isa = PBXBuildFile; fileRef = D08594401B7E64B4001597D8 /* triangleShader.fs */; };
 		D08594431B7E64CA001597D8 /* triangleShader.vs in Resources */ = {isa = PBXBuildFile; fileRef = D08594421B7E64CA001597D8 /* triangleShader.vs */; };
 		D08594571B82CF3A001597D8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08594561B82CF3A001597D8 /* CoreMotion.framework */; };
@@ -31,10 +42,23 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* ___PROJECTNAME___.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "___PROJECTNAME___.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* INDEXED_DRAWING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INDEXED_DRAWING.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8B5D72111B8FE28C002048F0 /* block_export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_export.png; sourceTree = "<group>"; };
+		8B5D72121B8FE28C002048F0 /* cube_with_image.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube_with_image.mtl; sourceTree = "<group>"; };
+		8B5D72131B8FE28C002048F0 /* cube_with_image.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube_with_image.obj; sourceTree = "<group>"; };
+		8B5D72141B8FE28C002048F0 /* JObjectLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JObjectLoader.cpp; sourceTree = "<group>"; };
+		8B5D72151B8FE28C002048F0 /* JObjectLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JObjectLoader.h; sourceTree = "<group>"; };
+		8B5D72161B8FE28C002048F0 /* SimpleIndexShader.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SimpleIndexShader.fs; sourceTree = "<group>"; };
+		8B5D72171B8FE28C002048F0 /* SimpleIndexShader.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SimpleIndexShader.vs; sourceTree = "<group>"; };
+		8B5D721E1B927F7F002048F0 /* libSDL2_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2_image.a; sourceTree = "<group>"; };
+		8B5D72201B9281BC002048F0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8B5D72221B928263002048F0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8B5D72241B928289002048F0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8BE3ADA61B9509ED00567335 /* Crate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Crate.jpg; sourceTree = "<group>"; };
+		8BE3ADA81B95156E00567335 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08594401B7E64B4001597D8 /* triangleShader.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = triangleShader.fs; sourceTree = "<group>"; };
 		D08594421B7E64CA001597D8 /* triangleShader.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = triangleShader.vs; sourceTree = "<group>"; };
@@ -136,12 +160,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5D72231B928263002048F0 /* MobileCoreServices.framework in Frameworks */,
 				D08594571B82CF3A001597D8 /* CoreMotion.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				8B5D72211B9281BC002048F0 /* ImageIO.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				D0A3C8111B7E5DB100E8C825 /* libSDL2.a in Frameworks */,
-				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
-				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				8B5D721F1B927F7F002048F0 /* libSDL2_image.a in Frameworks */,
 				FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */,
 				FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */,
 				FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */,
@@ -249,6 +276,7 @@
 		0097E2D412F70C4D00724AC5 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				8B5D721E1B927F7F002048F0 /* libSDL2_image.a */,
 				D0A3C80F1B7E5DB100E8C825 /* libSDL2.a */,
 			);
 			path = lib;
@@ -257,7 +285,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* ___PROJECTNAME___.app */,
+				1D6058910D05DD3D006BFB54 /* INDEXED_DRAWING.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,6 +305,15 @@
 		29B97315FDCFA39411CA2CEA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8BE3ADA81B95156E00567335 /* images.jpeg */,
+				8BE3ADA61B9509ED00567335 /* Crate.jpg */,
+				8B5D72111B8FE28C002048F0 /* block_export.png */,
+				8B5D72121B8FE28C002048F0 /* cube_with_image.mtl */,
+				8B5D72131B8FE28C002048F0 /* cube_with_image.obj */,
+				8B5D72141B8FE28C002048F0 /* JObjectLoader.cpp */,
+				8B5D72151B8FE28C002048F0 /* JObjectLoader.h */,
+				8B5D72161B8FE28C002048F0 /* SimpleIndexShader.fs */,
+				8B5D72171B8FE28C002048F0 /* SimpleIndexShader.vs */,
 				D0A3C8181B7E613100E8C825 /* Shader.cpp */,
 				D0A3C8191B7E613100E8C825 /* Shader.h */,
 				D0A3C8161B7E60BB00E8C825 /* main.cpp */,
@@ -301,6 +338,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B5D72241B928289002048F0 /* libz.dylib */,
+				8B5D72221B928263002048F0 /* MobileCoreServices.framework */,
+				8B5D72201B9281BC002048F0 /* ImageIO.framework */,
 				D08594561B82CF3A001597D8 /* CoreMotion.framework */,
 				FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */,
 				FD77A0840E26BDB800F39101 /* AudioToolbox.framework */,
@@ -316,9 +356,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */ = {
+		1D6058900D05DD3D006BFB54 /* INDEXED_DRAWING */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "___PROJECTNAME___" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "INDEXED_DRAWING" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -328,9 +368,9 @@
 			);
 			dependencies = (
 			);
-			name = "___PROJECTNAME___";
+			name = INDEXED_DRAWING;
 			productName = "___PROJECTNAME___";
-			productReference = 1D6058910D05DD3D006BFB54 /* ___PROJECTNAME___.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* INDEXED_DRAWING.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -341,7 +381,7 @@
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "___PROJECTNAME___" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "INDEXED_DRAWING" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -355,7 +395,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* ___PROJECTNAME___ */,
+				1D6058900D05DD3D006BFB54 /* INDEXED_DRAWING */,
 			);
 		};
 /* End PBXProject section */
@@ -369,10 +409,17 @@
 				D08594411B7E64B4001597D8 /* triangleShader.fs in Resources */,
 				D08594651B82F2AF001597D8 /* cubeShader.vs in Resources */,
 				D08594631B82F2A4001597D8 /* cubeShader.fs in Resources */,
+				8B5D721A1B8FE28C002048F0 /* cube_with_image.obj in Resources */,
+				8BE3ADA91B95156E00567335 /* images.jpeg in Resources */,
 				FD77A07F0E26BDA900F39101 /* Default.png in Resources */,
 				D08594431B7E64CA001597D8 /* triangleShader.vs in Resources */,
 				D0A3C80B1B7E5D9800E8C825 /* doxyfile in Resources */,
+				8B5D721D1B8FE28C002048F0 /* SimpleIndexShader.vs in Resources */,
+				8B5D72191B8FE28C002048F0 /* cube_with_image.mtl in Resources */,
+				8BE3ADA71B9509ED00567335 /* Crate.jpg in Resources */,
+				8B5D72181B8FE28C002048F0 /* block_export.png in Resources */,
 				D0A3C80C1B7E5D9800E8C825 /* SDL_config.h.cmake in Resources */,
+				8B5D721C1B8FE28C002048F0 /* SimpleIndexShader.fs in Resources */,
 				D0A3C80D1B7E5D9800E8C825 /* SDL_config.h.in in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5D721B1B8FE28C002048F0 /* JObjectLoader.cpp in Sources */,
 				D0A3C81A1B7E613100E8C825 /* Shader.cpp in Sources */,
 				D0A3C8171B7E60BB00E8C825 /* main.cpp in Sources */,
 			);
@@ -407,7 +455,7 @@
 					"\"$(SRCROOT)/SDL/lib\"",
 					"$(PROJECT_DIR)/SDL/lib",
 				);
-				PRODUCT_NAME = "___PROJECTNAME___";
+				PRODUCT_NAME = INDEXED_DRAWING;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/glm";
 			};
 			name = Debug;
@@ -425,7 +473,7 @@
 					"\"$(SRCROOT)/SDL/lib\"",
 					"$(PROJECT_DIR)/SDL/lib",
 				);
-				PRODUCT_NAME = "___PROJECTNAME___";
+				PRODUCT_NAME = INDEXED_DRAWING;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/glm";
 			};
 			name = Release;
@@ -460,7 +508,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "___PROJECTNAME___" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "INDEXED_DRAWING" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -469,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "___PROJECTNAME___" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "INDEXED_DRAWING" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
